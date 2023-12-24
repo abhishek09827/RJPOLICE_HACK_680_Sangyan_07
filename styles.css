@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.very-small-img {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar-brand {
+  font-size: 3.5vw;
+  margin-left: 20px;
+  font-weight: bolder;
+  color: #ddf2fd;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.navbar {
+  background-color: #164863;
+}
+
+.nav-link {
+  color: #ffffff;
+  font-size: 1.5vw;
+  padding-top: 1.7rem;
+}
+
+.login-div {
+  background-color: #9bbec8;
+}
