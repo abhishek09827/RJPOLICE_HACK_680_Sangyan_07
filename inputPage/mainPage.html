@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fraud Detection System</title>
+    <link rel="stylesheet" href="mainPage_styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Fraud Detection System</h1>
+      <form id="transactionForm">
+        <label for="transactionType">Transaction Type:</label>
+        <input
+          type="text"
+          id="transactionType"
+          name="transactionType"
+          required
+        /><br /><br />
+
+        <label for="transactionAmount">Transaction Amount:</label>
+        <input
+          type="text"
+          id="transactionAmount"
+          name="transactionAmount"
+          required
+        /><br /><br />
+
+        <label for="nameOrig">Name of Origin:</label>
+        <input type="text" id="nameOrig" name="nameOrig" required /><br /><br />
+
+        <label for="oldBalanceOrg">Old Balance of Origin:</label>
+        <input
+          type="text"
+          id="oldBalanceOrg"
+          name="oldBalanceOrg"
+          required
+        /><br /><br />
+
+        <label for="newBalanceOrig">New Balance of Origin:</label>
+        <input
+          type="text"
+          id="newBalanceOrig"
+          name="newBalanceOrig"
+          required
+        /><br /><br />
+
+        <label for="nameDest">Name of Destination:</label>
+        <input type="text" id="nameDest" name="nameDest" required /><br /><br />
+
+        <label for="oldBalanceDest">Old Balance of Destination:</label>
+        <input
+          type="text"
+          id="oldBalanceDest"
+          name="oldBalanceDest"
+          required
+        /><br /><br />
+
+        <label for="newBalanceDest">New Balance of Destination:</label>
+        <input
+          type="text"
+          id="newBalanceDest"
+          name="newBalanceDest"
+          required
+        /><br /><br />
+
+        <button type="submit" id="detectButton">Detect Fraud</button>
+      </form>
+
+      <div id="result" class="result-container">
+        <!-- Result from ML model will be displayed here -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

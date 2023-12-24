@@ -29,3 +29,12 @@
 .login-div {
   background-color: #9bbec8;
 }
+
+.btn {
+  background-color: #164863;
+}
+.btn:hover {
+  background-color: #4198e0;
+  color: #164863;
+  font-weight: bold;
+}
