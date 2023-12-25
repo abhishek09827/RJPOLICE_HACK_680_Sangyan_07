@@ -184,7 +184,7 @@
               >
               <input
                 type="email"
-                class="form-control"
+                class="form-control login--username"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="Enter Police Id"
@@ -199,7 +199,7 @@
               >
               <input
                 type="password"
-                class="form-control"
+                class="form-control login--password"
                 id="exampleInputPassword1"
                 placeholder="Enter Password"
               />
@@ -214,8 +214,11 @@
                 >Check me out</label
               >
             </div> -->
+            <div class="d-flex justify-content-center m-1 text-danger">
+              <p id="wrong-pass-text" class="opacity-0">wrong credintials</p>
+            </div>
             <div class="d-flex justify-content-center">
-              <button type="button" class="submit-btn btn btn-primary m-5">
+              <button type="button" class="submit-btn btn btn-primary m-1 mt-0">
                 Login
               </button>
             </div>
@@ -223,7 +226,7 @@
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
+
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -239,5 +242,6 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
