@@ -5,7 +5,7 @@ Working on our project with three different branches, dividing work among the te
 
 Branches:
 1. ML model
-2. Web Page: consists of all web application work
+2. Website: consists of all web application work
 3. Mobile Application
 
 Progress as of (28/12/2023):
