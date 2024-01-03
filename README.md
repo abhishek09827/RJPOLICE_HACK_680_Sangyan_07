@@ -8,12 +8,13 @@ Branches:
 2. Website: consists of all web application work
 3. Mobile Application
 
-Progress as of (28/12/2023):
-1. Done with the basic web application structure.
+Progress as of (03/01/2024):
+1. Done with the web application structure.
 2. Done with the basic UX/UI of the mobile application.
 3. Completed authentication connection to the backend for both.
-4. Completion of ML models.
-5. Done with UI/UX of LLM-based Chatbot.
+4. Completion of ML models(Bank Trans).
+5. Completion of ML models(UPI Trans).
+6. Done with UI/UX of LLM-based Chatbot.
 
 #Upcoming Progress:
 1. Integration of ML model with Flask.
