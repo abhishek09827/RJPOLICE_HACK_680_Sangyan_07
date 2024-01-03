@@ -20,4 +20,5 @@ Progress as of (03/01/2024):
 1. Integration of ML model with Flask.
 2. Integration of BACKEND to FRONTEND.
 3. Database for the transaction.
-4. Hosting the web Page 
+4. Hosting the web Page
+5. Model of Credit Card Fraud Detection
